@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  </head>
+  <body>
+    <div data-role="page" id="home">
+      <div data-role="header" data-theme="b">
+        <h1>Mobile Application</h1>
+      </div>
+      <div data-role="content">
+        <h2>Welcome!</h2>
+        <p>This is a Mobile Website Build with jQuery Mobile</p>
+        <a href="#page1" class="ui-btn ui-btn-b ui-corner-all">Page-1</a>
+        <a href="#page2" class="ui-btn ui-btn-b ui-corner-all">Page-2</a>
+        <a href="#page3" class="ui-btn ui-btn-b ui-corner-all">Page-3</a>
+
+        <div data-role="collapsible" data-theme="a">
+          <h3>Quick Info</h3>
+          <p>Demo of jquery mobile features</p>
+        </div>
+
+        <ui data-role="listview" data-inset="true" data-divider-theme="a">
+          <li data-role="list-divider">Popular Pages</li>
+          <li>Page-1</li>
+          <li>Page-2</li>
+          <li>Page-3</li>
+        </ui>
+      </div>
+      <div data-role="footer" data-position="fixed">
+        <h4>WAD Practical 4-A</h4>
+      </div>
+    </div>
+  </body>
+</html>
